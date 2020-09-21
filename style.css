@@ -1,0 +1,76 @@
+body{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-family: "Noto Serif",serif;
+}
+
+.calculator{
+    background: rgb(6, 70, 112);
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 15px  0 #03324f, 
+                0 8px 10px rgba(0, 0, 0, 0.753);
+}
+
+.result{
+    background-color: whitesmoke;
+    color: black;
+    height: 50px;
+    text-align: right;
+    margin: 8px 0 20px 10px;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.753),
+                inset 0 2px 0 #03324f ;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li{
+    background-color: #055b91;
+    padding: 10px;
+    margin: 10px;
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #03324f, 
+                0 4px 5px rgba(0, 0, 0, 0.753);
+    font-weight: 700;
+}
+
+ul li:nth-child(16){
+    height: 80px;
+    text-align: center;
+    line-height: 75px;
+}
+
+ul li:last-child{
+    margin-top: -50px;
+    width: 65%;
+}
+
+ul li:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+
+}
+
+.signature{
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+}
